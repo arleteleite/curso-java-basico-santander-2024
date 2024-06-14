@@ -4,6 +4,12 @@ public class ResultadoEscolar {
     public static void main(String[] args) {
         int nota = 6;
 
+        if(nota >= 7)
+            System.out.println("Aprovado");
+
+        else
+            System.out.println("Reprovado");
+
         /*
          variavel resultado = verifica se a nota é >= 7 se true (aprovado), senão : verifica a segunda condiçaõ
          se nota é maior ou igual 5 e menor q 7, se true, imprime recuperação, senão : reprovado
